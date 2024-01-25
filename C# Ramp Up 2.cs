@@ -49,6 +49,30 @@ int age10 = Convert.ToInt32(Console.ReadLine()) ;
 int ave = age + age2 + age3 + age4 + age5 + age6 + age7 + age8 + age9 + age10;
 Console.WriteLine(ave / 10);
 
+       Console.WriteLine("\nFantasy Story Part:");
+        string heroName = "Sora";
+        string heroineName = "Lysandra";
+        string villainName = "Malvador";
+        string weaponName = "Stormbreaker";
+        string abilityName = "Shadowstep";
+
+        string story = @"
+    Once upon a time, in the kingdom of Aranthia, there lived a young hero named {heroName}. He
+    was known for wielding the legendary {weaponName} and possessing the extraordinary ability of
+    {abilityName}.
+
+    {heroName} embarked on a quest to rescue the beautiful princess, {heroineName}, who had been
+    captured by the wicked sorcerer, {villainName}. Along his journey, he encountered many trials
+    and challenges, but with his courage and determination, he overcame them all.
+
+    In a final showdown, {heroName} faced {villainName} in a battle of epic proportions. With a
+    swift strike of {weaponName}, he defeated the villain and rescued {heroineName}, restoring
+    peace to the kingdom of Aranthia once more.
+
+    And so, {heroName} and {heroineName} returned home as heroes, their names forever remembered
+    in the annals of history.";
+        Console.WriteLine(story);
+
 Console.WriteLine("Part 2: Number Patterns\n");
 
        
